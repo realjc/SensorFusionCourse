@@ -1,5 +1,4 @@
 ### 题目1 补全代码
-
 IMU预积分的实现：
 ```cpp
     //
@@ -32,7 +31,8 @@ IMU预积分的实现：
     curr_R = curr_theta_ij.matrix();
     prev_R_a_hat = prev_R * Sophus::SO3d::hat(a_mid);
     curr_R_a_hat = curr_R * Sophus::SO3d::hat(a_mid);
-
+```
+```cpp
     //
     // TODO: 2. set up F:
     //
